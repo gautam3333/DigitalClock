@@ -1,0 +1,78 @@
+/* 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-top: 150px;
+  background-color: #eaeaea;
+}
+
+.hour,
+.minute,
+.second {
+  font-size: 80px;
+}
+
+.clock {
+  background-color: #181818;
+  margin: 0 auto;
+  color: #f8f9fa;
+  border: 8px solid #00abb3;
+  border-radius: 16px;
+  padding: 64px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.time_flex_container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hour {
+  background-color: #fa5252;
+  padding: 0 18px 0 18px;
+  border-radius: 8px;
+}
+
+.minute {
+  background-color: #0ca678;
+  padding: 0 18px 0 18px;
+  border-radius: 8px;
+}
+
+.second {
+  background-color: #fab005;
+  padding: 0 18px 0 18px;
+  border-radius: 8px;
+}
+
+.date_flex_container {
+  background-color: #343a40;
+  color: #adb5bd;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
